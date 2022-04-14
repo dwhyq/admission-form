@@ -17,7 +17,7 @@ body {
 	padding: 1em;
 	display: flex;
 	flex-flow: row nowrap;
-    background-color:  purple;
+    background-color: green;
 }
 section {
     flex-basis: 57%;
@@ -39,8 +39,6 @@ aside {
 }
 img {
     border-radius: 10%;
-    
-
 }
 iframe {
     width: 15rem;
