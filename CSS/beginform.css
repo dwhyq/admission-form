@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/Images/pexels-zen-chung-5537984.jpg);
+    color: white;
+}
+.wrapper {
+    width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+    background-color:  green;
+}
+section {
+    flex-basis: 57%;
+    margin-right: 10%;
+}
+h1, h3 {
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+h4, h5 {
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.7rem;
+    font-size: medium;
+}
+aside {
+    flex-basis: 30%;
+}
+img {
+    border-radius: 10%;
+    
+
+}
+iframe {
+    width: 15rem;
+    height: 10rem;
+    
+}
+fieldset {
+	border-radius: 10px;
+	margin-bottom: 2rem;
+}
+legend {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: -0.5rem;
+}
+label {
+    display: block;
+	padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+}
+select {
+    padding: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 5px;
+    background-color: white;
+}
+button {
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin-top: 0.4rem;
+}
+.sbmit {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    margin-top: 0rem;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}
+textarea {
+    border-radius: 5px;
+    margin-left: 0.1rem;
+}
+input {
+    border-radius: 5px;
+    border: none;
+    margin-left: 0.1rem;
+}
+address {
+    padding-bottom: 0.5rem;
+}
