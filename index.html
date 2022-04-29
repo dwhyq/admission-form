@@ -9,9 +9,14 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="logo">
+            <img src="/my first project/Images/Coat_of_arms_of_Nigeria.svg" alt="coat of arm" width="100" vh="90">
+        </div>
         <section>
+            
             <h1>NIGERIAN UNIVERSITY ADMISSION FORM</h1>
             <h3>Welcome! Ready to embark on your journey to academic success?<br> kindly fill out the form below with your correct information and your preferred choice of University.</h3>
+
             <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
                 <input type="hidden"
                 name="send_to"
@@ -30,19 +35,20 @@
                 <legend>Select your gender</legend>
                 <label>
                     <input type="radio" name="gender" value="male"> Male
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="gender" value="female"> Female
                 </label>
-                <label for="Age">Age</label>
+                <label for="Age">Age
                 <input type="number" id="Age" name="Age" min="16" max="100">
+                </label>
             </fieldset>
 
             <fieldset>
                 <legend>Other Details</legend>
                 <p>Nationality</p>
                 <label>
-                    <input type="radio" name="nationality" value="Nigeria">Nigeria
+                    <input type="radio" name="nationality" value="Nigeria">Nigerian
                 </label>
                 <label>
                     <input type="radio" name="nationality" value="Foreigner">Foreigner
@@ -71,8 +77,9 @@
                     <option value="Sociology">Sociology</option>
                     <option value="Law">Law</option>
                 </select>
-                    <label for="score">Jamb Score</label>
+                    <label for="score">Jamb Score
                     <input type="number" id="score" name="score" min="180" max="400">
+                    </label>
                     <p>Preferred mode of study?</p>
                 <label>
                     <input type="radio" name="mode of study" value="Online">Online
@@ -97,7 +104,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d346.20103482369393!2d3.4217675036632618!3d6.428097939307859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf53280e7648d%3A0x4d01e5de6b847fe5!2sVictoria%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1649452158527!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
             <h5>NU Students:</h5>
-            <img src="/Images/pexels-kampus-production-5940864.jpg" width="180" height="200" alt="student of NU">
+            <img src="/my first project/Images/pexels-zen-chung-5537984.jpg" width="350" height="200" alt="student of NU">
             <h5>Contact Admission Officer:</h5>
             <p>Enter your email address and type in your request in the box below.</p>
                     <label for="email"> Email</label>

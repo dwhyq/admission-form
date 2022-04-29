@@ -8,8 +8,9 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-image: url(/Images/pexels-zen-chung-5537984.jpg);
-    color: white;
+    color: black;
+    background-color: lightgreen;
+
 }
 .wrapper {
     width: 80%;
@@ -17,28 +18,34 @@ body {
 	padding: 1em;
 	display: flex;
 	flex-flow: row nowrap;
-    background-color: green;
 }
 section {
     flex-basis: 57%;
     margin-right: 10%;
 }
 h1, h3 {
-    background-color: black;
+    background-color: green;
     border-radius: 5px;
     padding: 0.5rem;
+    color: white;
 }
 h4, h5 {
-    background-color: black;
+    background-color: green;
     border-radius: 5px;
     padding: 0.7rem;
     font-size: medium;
+    color: white;
 }
 aside {
     flex-basis: 30%;
 }
 img {
-    border-radius: 10%;
+    border-radius: 4%;
+}
+.logo {
+    margin-left: -10rem;
+    margin-top: 1.3rem;
+    margin-right: 2rem;
 }
 iframe {
     width: 15rem;
@@ -71,6 +78,8 @@ button {
     font-size: 1rem;
     padding: 0.3rem;
     margin-top: 0.4rem;
+    background-color: black;
+    color: white;
 }
 .sbmit {
     margin-left: 1rem;
@@ -93,3 +102,4 @@ input {
 address {
     padding-bottom: 0.5rem;
 }
+/* A javascript code adde to the html was gotten from frontend masters course */
